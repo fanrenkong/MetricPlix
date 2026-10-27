@@ -1,0 +1,32 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local editor settings and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# MATLAB autosave files and workspace snapshots
+*.asv
+*.autosave
+matlab_workspace
+
+# Generated MATLAB code and packaged applications
+/slprj/
+/codegen/
+/build/
+/dist/
+*.mlappinstall
+*.ctf
+
+# Local experiment results and analysis configurations
+# Keep MAT files elsewhere trackable for metric reference data and examples.
+/results/
+/datas/
+/conf.mat
+/conf-*.mat
